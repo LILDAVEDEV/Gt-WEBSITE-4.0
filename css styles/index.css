@@ -50,9 +50,9 @@ body{
     font-weight: 700;
  }
  #dropdown ul li{
-    margin-left: 0;
+    margin-left: 0 !important;
     /* border: 5px solid red; */
-    padding: 0;
+    padding: 0 !important;
  }
  
 
