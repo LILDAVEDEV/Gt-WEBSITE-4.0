@@ -1,0 +1,128 @@
+
+@media(max-width:1440px){
+   .page-4-nav{
+    /* border: 5px solid yellow; */
+    /* margin: -20px; */
+    /* padding: 0 !important; */
+    width: 50% !important;
+   }
+   .page-4-nav-wrapper ul{
+    /* border: 5px solid black; */
+    margin-left: -200px !important;
+    width: 100%;
+  }
+  .normal{
+    margin-top: 0;
+  }
+  .skew{
+    border: 5px solid green;
+    margin-left: -80px;
+    width: 20%;
+   }
+  
+  
+  }  
+
+@media(max-width:1246px){
+
+    .page-4-header{
+        display: none !important;
+    }
+  }
+@media(max-width:1177px){
+    .main-text{
+        display: block;
+        /* border: 5px solid green; */
+        width: 50vw;
+        height: 40vh;
+        padding: 50px 30px;
+    }
+}
+@media(max-width:992px){
+    .primary-desktop-nav{
+        display: block!important;
+    } 
+    .secondary-nav-2{
+        display: none !important;
+    }
+}
+@media(max-width:784px){
+   .skew{
+    /* border: 5px solid green; */
+    margin-left: 6px;
+    width: 15%;
+   }
+}
+
+
+
+
+@media(max-width:768px){
+    .footer{
+        display: none !important;
+    }
+    .primary-footer{
+        display: block !important;
+    }
+    .section-1-mobile{
+        display: block !important;
+       
+    }
+    .section-1-mobile-img{
+        background-position: center;
+        /* border: 5px solid red; */
+        width: 100%;
+        background-size: cover;
+        height: 40vh;
+    }
+    .section-1{
+        display:none !important;
+    }
+    .sidebar{
+        display: none;
+    }
+    .section-2 .container .row .new{
+        /* border: 5px solid green; */
+        width: 100vw !important;
+    }
+}
+@media(max-width:767.98px){
+    .img{
+        display: block;
+        /* border: 5px solid red; */
+    }
+   
+}
+
+@media(max-width:767px){
+   .page-4-header{
+    display: none;
+   }
+  
+    
+   
+}
+@media(max-width:613px){
+    .section-1-mobile-img{
+        background-position: center;
+        /* border: 5px solid black; */
+        width: 100%;
+        background-size: cover;
+        height: 30vh;
+    } 
+    
+ }
+ @media(max-width:414px){
+    .section-1-mobile-img{
+        background-position: center;
+        /* border: 5px solid green; */
+        width: 100%;
+        background-size: cover;
+        height: 20vh;
+    } 
+ }
+
+ 
+ 
+
+

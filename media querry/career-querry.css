@@ -1,0 +1,175 @@
+@media(max-width:1440px){
+   .banner-wrap{
+    /* border: 5px solid green; */
+    width: 100%;
+    padding: 0;
+    height: 40vh;
+    display: block;
+   }
+   .nav-wrapper{
+    /* border: 5px solid black; */
+    margin-left: -50px;
+   }
+   .primary-logo{
+    /* border: 5px solid black; */
+    right: -350px;
+    width: 20vw;
+    /* top: -15px; */
+}
+.primary-logo h5{
+    /* border: 5px solid green; */
+    width: 100%;
+}
+
+}
+ 
+@media(max-width:1405px){
+    .primary-logo{
+        /* border: 5px solid black; */
+        right: -200px;
+        width: 9vw;
+        /* top: -15px; */
+    }
+    .primary-logo h5{
+        /* border: 5px solid green; */
+        width: 100%;
+    }
+}
+@media(max-width:1240px){
+    .secondary-nav-2{
+        display: block !important;
+    }
+    .primary-desktop-nav{
+        /* display: block !important; */
+    }
+    .primary-logo{
+        display: none;
+    }
+}
+@media(max-width:1197px){
+    #header{
+        display: none !important;
+    }
+   
+}
+
+@media(max-width:1157px){
+.nav-wrapper ul{
+    border: 5px solid blue;
+    /* width: 100%; */
+}
+.major-nav{
+    border: 5px solid red;
+    width: 40%;
+}
+.dropdown .btn{
+   margin-top: 0;
+   height: 100%;
+}
+.geo-wrapper{
+    margin-top: 0;
+    height: 100%;
+}
+.major-header{
+    display: none !important;
+}
+
+}
+@media(max-width:1060px){
+    .dropdown .btn{
+        margin-top: 0 !important;
+        height: 100% ;
+        border: 5px solid red;
+     }
+     
+    }
+    
+
+
+
+
+
+@media(max-width:993px){
+    .primary-desktop-nav{
+        display: block !important
+    }
+    .secondary-nav-2{
+        display: none !important;
+    }
+}
+
+@media(max-width:767px){
+   .bg-img{
+    display: block !important;
+    /* border: 5px solid green !important; */
+    height: 30vh;
+   }
+   .sidebar-block{
+    display: none !important;
+   }
+   .content-block{
+    display: block !important;
+   }
+   .p-wrapper-text{
+    /* border: 5px solid black; */
+    width: 73vw;
+   }
+   .job .card{
+    width: 100vw;
+   }
+}
+
+
+@media(max-width:767.98px){
+    .section-mobile-nav{
+        display: block !important;
+    }
+    .bg-img{
+        display: none !important;
+        /* border: 5px solid green !important; */
+        height: 25vh;
+       }
+       .bg-img-mobile{
+        background-image: url(../Pictures/carerr-1\ \(2\).jpg);
+        background-position: 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        display: block !important;
+        height: 30vh !important;
+        /* border: 5px solid green !important; */
+        width: 100% ;
+    
+    }
+    .bg-text{
+        display: block !important;
+        /* border: 5px solid black; */
+    }
+     .bg-text h1{
+        font-size: 32px ;
+        margin-top: 2px;
+        margin-bottom: 9px ;
+        /* border: 5px solid blue ; */
+      }
+       .bg-text h3{
+          font-size: 18px ;
+          color: #dd4f05;
+          margin-bottom: 9px  ;
+          /* border: 5px yellow ; */
+        }
+         .bg-text p{
+          font-size: 18px ;
+          /* color: #dd4f05; */
+          margin-bottom: 0  ;
+          /* border: 5px pink ; */
+        }
+    
+}
+
+@media(max-width:768px){
+    .footer{
+        display: none !important;
+    }
+    .primary-footer{
+        display: block !important;
+    }
+}

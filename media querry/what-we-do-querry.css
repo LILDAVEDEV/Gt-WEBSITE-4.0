@@ -1,0 +1,218 @@
+
+@media(max-width:1440px){
+    .nav-wrapper{
+        /* border: 5px solid black; */
+        margin-left: -50px;
+       }
+}
+@media(max-width:1405px){
+    .primary-logo{
+        /* border: 5px solid black; */
+        right: -350px;
+        width: 23vw;
+        /* top: -15px; */
+    }
+    .primary-logo h5{
+        /* border: 5px solid green; */
+        width: 100%;
+    }
+}
+
+@media(max-width:1257px){
+    .secondary-nav-2{
+        display: none;
+    }
+    .primary-desktop-nav{
+        display: block !important;
+    }
+    .primary-logo{
+        display: none;
+    }
+}
+@media(max-width:1204px){
+   .text{
+    /* border: 5px solid green; */
+    width: 40vw !important;
+   }
+   .text-wrapper{
+    /* border: 5px solid blue; */
+    width: 100%;
+    margin-left: 0;
+   }
+}
+@media(max-width:1197px){
+    #header{
+        display: none !important;
+    }
+   
+}
+
+@media(max-width:1157px){
+    .nav-wrapper ul{
+        /* border: 5px solid blue; */
+        /* width: 100%; */
+    }
+    .major-nav{
+        /* border: 5px solid red; */
+        width: 40%;
+    }
+    .dropdown .btn{
+       margin-top: 0;
+       height: 100%;
+    }
+    .geo-wrapper{
+        margin-top: 0;
+        height: 100%;
+    }
+   
+ }
+@media(min-width:993px){
+    .secondary-nav-2{
+        display: block!important;
+    }
+    .primary-desktop-nav{
+        display: none !important;
+    }
+}
+@media(max-width:993px){
+    .primary-desktop-nav{
+        display: block !important;
+    }
+    .secondary-nav-2{
+        display: none!important;
+    }
+    .footer{
+        display: none;
+    }
+}
+@media(max-width:992px){
+    .country-img{
+        min-width: 7vw;
+     }
+     .country-img-2{
+      min-width:7vw;
+   }
+   .country-img-3{
+      min-width:7vw;
+   }
+   .country-img-4{
+      min-width: 7vw;
+   }
+   .country-img-5{
+      min-width: 7vw;
+   }
+   .country-img-6{
+      min-width: 7vw;
+   }
+   .country-img-7{
+      min-width: 7vw;
+   }
+   .country-img-8{
+      min-width: 7vw;
+   }
+   .country-img-9{
+      min-width: 7vw;
+   }
+   .country-img-10{
+      min-width: 7vw;
+   }
+   .country-img-11{
+
+      min-width: 7vw;
+   }
+}
+
+@media(max-width:981px){
+    .text{
+        width: 60% !important;
+    }
+}
+
+
+
+
+@media(max-width:768px){
+    
+    .primary-footer{
+        display: block !important;
+    }
+    .section-2 .banking{
+        display: none !important; 
+       }
+    
+        .banking-mobile{
+        display: block !important;
+       }
+       .sidebar{
+        display: none;
+       }
+       .country-img{
+          min-width: 8.5vw;
+       }
+       .country-img-2{
+        min-width: 8.5vw;
+     }
+     .country-img-3{
+        min-width: 8.5vw;
+     }
+     .country-img-4{
+        min-width: 8.5vw;
+     }
+     .country-img-5{
+        min-width: 8.5vw;
+     }
+     .country-img-6{
+        min-width: 8.5vw;
+     }
+     .country-img-7{
+        min-width: 8.5vw;
+     }
+     .country-img-8{
+        min-width: 8.5vw;
+     }
+     .country-img-9{
+        min-width: 8.5vw;
+     }
+     .country-img-10{
+        min-width: 8.5vw;
+     }
+     .country-img-11{
+
+        min-width: 8.5vw;
+     }
+     .col-lg-6 .card-list{
+        min-width: 80vw;
+     }
+   .card-wrapper .card{
+    /* border: 5px solid yellow; */
+    width: 100%;
+   } 
+   
+}
+ 
+@media(min-width:769px){
+   .primary-footer{
+    display: none;
+   }
+   .banking-mobile{
+    display: none !important;
+   }
+   
+
+   
+}
+
+
+
+@media(max-width:767.98px){
+    .section-mobile-nav{
+        display: block !important;
+    }
+}
+
+
+@media(max-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}

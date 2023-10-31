@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url(../Pictures/page-5-body-picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 100vh;
+     background-color: transparent;
+     
+     
+
+
+    background-position: center;
+}
+.header .container-fluid{
+    position: relative;
+    top: 13%;
+    
+}
+.logo-text {
+ /* border: 5px solid blue; */
+ justify-content: end;
+}
+
+/* content-section */
+.content-section {
+    height: 75%;
+    /* border: 5px solid blue; */
+    width: 100%;
+}
+.content-section .container{
+    height: 100%;
+}
+
+
+.real-content{
+    width: 70%;
+    /* border: 5px solid pink; */
+    height: 100%;
+    position: relative;
+    left: 35%;
+}
+.title{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+.personal-business{
+    /* border: 5px solid black; */
+    gap: 10px;
+    /* border: 5px solid blue; */
+}
+.personal{
+    width: 30%;
+    border: 3px solid #FFFFFF;
+    height: 20vh;
+    border-radius: 20px;
+    background-color: #2D2D2D;
+    
+}
+.business{
+    width: 30%;
+    border: 3px solid #FFFFFF;
+    height: 20vh;
+    border-radius: 20px;
+    background-color: #2D2D2D;
+}
+.img-border{
+    overflow: hidden;
+    /* border: 5px solid brown; */
+}
+.business .img-border .img{
+    background-image: url(../Pictures/business.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 13vh;
+    /* border: 5px solid red; */
+    width: 25%;
+    margin: auto;
+    margin-top: 2%;
+}
+.personal .img-border .img{
+    background-image: url(../Pictures/personal.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 13vh;
+    /* border: 5px solid red; */
+    width: 25%;
+    margin: auto;
+    margin-top: 2%;
+}
+.personal-text{
+    color: white;
+    /* border: 5px solid black; */
+    margin-top: 2%;
+}
+
+.business-text{
+    color: white;
+    /* border: 5px solid black; */
+    margin-top: 2%;
+}
+.title{
+    /* border: 5px solid red; */
+    width: 50%;
+}
+.account{
+    /* border: 5px solid blue; */
+    width: 55%;
+    color: #7699AF;
+}
+.started{
+    /* border: 5px solid indigo; */
+    margin-top: 3%;
+    color: #CF3603;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.selection{
+    /* border: 5px solid pink; */
+    margin-bottom: 3%;
+    color: #D3E8F6;
+}
+.business:hover{
+    background-color: #CF3603;
+}
+.personal:hover{
+    background-color: #CF3603;
+
+}
