@@ -49,6 +49,11 @@ body{
     color: #FFFFFF;
     font-weight: 700;
  }
+ #dropdown ul li{
+    margin-left: 0;
+    /* border: 5px solid red; */
+    padding: 0;
+ }
  
 
 .nav-wrapper-flex{
@@ -82,14 +87,12 @@ body{
 .dropdown .btn{
     /* border: 5px solid red ; */
     margin-top: 5px;
-    /* margin-left: 10px; */
+    margin-left: 10px;
 }
 .dropdown .dropdown-menu{
     margin-top: 7px !important;
-    border: 5px solid blue;
-    margin-left: 0 !important;
+    /* border: 5px solid blue; */
     z-index: 5000 !important;
-    padding: 0 !important;
 }
 
 
