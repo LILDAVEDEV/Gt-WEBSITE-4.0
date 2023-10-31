@@ -82,12 +82,14 @@ body{
 .dropdown .btn{
     /* border: 5px solid red ; */
     margin-top: 5px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 .dropdown .dropdown-menu{
     margin-top: 7px !important;
-    /* border: 5px solid blue; */
+    border: 5px solid blue;
+    margin-left: 0 !important;
     z-index: 5000 !important;
+    padding: 0 !important;
 }
 
 
