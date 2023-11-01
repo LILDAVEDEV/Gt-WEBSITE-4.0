@@ -73,30 +73,21 @@ body{
     overflow: hidden;
     /* border: 5px solid brown; */
 }
-.business .img-border .img{
-    background-image: url(../Pictures/business.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 13vh;
-    /* border: 5px solid red; */
-    width: 25%;
-    margin: auto;
-    margin-top: 2%;
-}
-.personal .img-border .img{
-    background-image: url(../Pictures/personal.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 13vh;
-    /* border: 5px solid red; */
-    width: 25%;
-    margin: auto;
-    margin-top: 2%;
-}
 .personal-text{
     color: white;
     /* border: 5px solid black; */
     margin-top: 2%;
+    
+}
+.page-5-personal{
+    overflow: hidden !important;
+}
+.page-5-personal img  {
+    height: 15vh !important;
+    /* border: 5px solid red !important; */
+}
+.page-5-business img{
+    height: 15vh !important;
 }
 
 .business-text{

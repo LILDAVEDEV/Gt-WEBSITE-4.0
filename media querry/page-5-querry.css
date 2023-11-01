@@ -59,6 +59,16 @@
 
     }
 }
+@media(max-width:426px){
+    .page-5-personal img{
+        height: 10vh !important;
+        overflow: hidden;
+    }
+    .personal{
+        width: 30vw !important;
+    }
+}
+
 @media(max-width:424px){
     .real-content{
         /* border: 5px solid blue; */
