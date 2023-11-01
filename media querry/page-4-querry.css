@@ -105,7 +105,7 @@
     .gt-image-container{
         /* margin-left:500px ; */
         margin-top: -40px;
-        border: 5px solid purple;
+        /* border: 5px solid purple; */
         margin-left: 700px;
     }
     .gt-image-container img {
@@ -116,7 +116,7 @@
     .gt-image-container{
         /* margin-left:500px ; */
         margin-top: -40px;
-        border: 5px solid black;
+        /* border: 5px solid black; */
         margin-left: 600px;
     }
 }
@@ -169,7 +169,7 @@
     .gt-image-container{
         /* margin-left:500px ; */
         margin-top: -40px;
-        border: 5px solid red;
+        /* border: 5px solid red; */
         margin-left: 500px;
     }
 }
@@ -193,7 +193,7 @@
     .gt-image-container{
         /* margin-left:500px ; */
         margin-top: -40px;
-        border: 5px solid blue;
+        /* border: 5px solid blue; */
         margin-left: 450px !important;
     } }
 
@@ -210,21 +210,21 @@
  @media(max-width:472px){
     .gt-image-container{
         margin-top: -35px !important;
-        border: 5px solid blue !important;
+        /* border: 5px solid blue !important; */
         margin-left: 350px !important;
     }
 }
 @media(max-width:419px){
     .gt-image-container{
         margin-top: -35px !important;
-        border: 5px solid red!important;
+        /* border: 5px solid red!important; */
         margin-left: 300px;
     }
 }
 @media(max-width:415px){
     .gt-image-container{
         margin-top: -35px !important;
-        border: 5px solid black!important;
+        /* border: 5px solid black!important; */
         margin-left: 210px !important;
     }
 }
