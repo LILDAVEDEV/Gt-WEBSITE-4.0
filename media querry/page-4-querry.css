@@ -13,9 +13,12 @@
   }
   .normal{
     margin-top: 0;
+    /* border: 5px solid blue; */
+    padding-top: 20px !important;
+    padding-bottom: 5px;
   }
   .skew{
-    border: 5px solid green;
+    /* border: 5px solid green; */
     margin-left: -80px;
     width: 20%;
    }
@@ -195,7 +198,9 @@
         margin-top: -40px;
         /* border: 5px solid blue; */
         margin-left: 450px !important;
-    } }
+    } 
+}
+
 
 @media(max-width:613px){
     .section-1-mobile-img{
@@ -206,6 +211,14 @@
         height: 30vh;
     } 
     
+ }
+ @media (max-width:544px){
+    .gt-image-container{
+        /* margin-left:500px ; */
+        margin-top: -40px;
+        /* border: 5px solid blue; */
+        margin-left: 400px !important;
+    } 
  }
  @media(max-width:472px){
     .gt-image-container{
