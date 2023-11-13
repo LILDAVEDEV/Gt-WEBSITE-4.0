@@ -324,5 +324,16 @@
         margin-left: 50px;
     }
 }
+@media (max-width:286px){
+    .footer-links{
+        /* border: 5px solid red !important; */
+        margin-left: -50px !important;
+    }
+    .gt-image-container{
+        /* border: 5px solid red; */
+        margin-left: 150px !important;
+    }
+}
+
 
 
