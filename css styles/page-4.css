@@ -10,7 +10,8 @@ body{
 }
 .alert{
      border-radius: 0;
-    background-color: #FDF6F2; }
+    background-color: #FDF6F2;
+ }
 .important-notice{
     background-color: #FDF6F2;
 }
@@ -31,6 +32,7 @@ strong{
     align-items: center;
     /* background-color: #DD4F05; */
     /* overflow: hidden; */
+    margin-top: -16px !important;
     
     
 }
@@ -56,7 +58,7 @@ strong{
     /* border: 5px solid green; */
     height: 100%;
     width: 100%;
-    margin-left: 220px;
+    margin-left: 45px;
     text-align: center;
     /* overflow: hidden; */
     
@@ -85,7 +87,7 @@ strong{
 .skew{
     /* border: 5px solid red; */
     height: 100%;
-    width: 13vw;
+    width: 15vw;
     transform: skewX(-27deg);
     background-color: #923403;
     margin-left: -55px;
@@ -97,8 +99,8 @@ strong{
 .primary-logo{
     position: absolute;
     margin-left: 1200px;
-    top:-60px;
-    z-index: 500;
+    top:0px;
+    z-index: 1500;
 
 }
 .primary-logo a{
@@ -130,6 +132,14 @@ strong{
     /* border: 5px solid green; */
     margin-top: 15px;
     
+}
+.dropdown-menu li{
+    /* border: 5px solid black; */
+    margin-left: 0 !important;
+    padding: 0 !important;
+}
+.dropdown-menu{
+    margin-top:10px !important;
 }
 .primary-list li .dropdown-menu-parent{
     text-decoration: none;
@@ -444,13 +454,20 @@ p{
 }
 .primary-logo{
     position: absolute;
-    margin-left: 60%;
-    top:-70px;
+    margin-left: 1000px;
+    top:-50px;
+    /* border: 5px solid red; */
+    width: 25vw;
 
+}
+.logo-img{
+    /* border: 5px solid black !important; */
+    height: 10vh !important;
 }
 .primary-logo a{
     display: block;
     text-decoration: none;
+    width: 100%;
 }
 .primary-logo a h5{
     color: #788186;
@@ -569,6 +586,12 @@ p{
 .section-1-mobile-main-text h1{
     font-size: 40px;
 }
+.section-1 .container-fluid .img{
+    border: 5px solid blue;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
 .section-1-mobile-main-text  h3{
     font-size: 18px;
     font-weight: 700;
@@ -634,16 +657,16 @@ p{
     align-items: center !important;
     /* border: 5px solid blue; */
     padding-left: 15px;
-    padding-top: 7px;
+    padding-top: 8px;
     color: #FFFFFF;
     font-weight: 400;
    
 }
 .normal i{
-    font-size: 25px;
+    font-size: 15px;
 }
 .normal span{
-    font-size: 19px;
+    font-size: 15px;
 }
 .list-social img{
     /* border: 5px solid green; */
