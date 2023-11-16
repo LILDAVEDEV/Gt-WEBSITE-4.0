@@ -587,7 +587,7 @@ p{
     font-size: 40px;
 }
 .section-1 .container-fluid .img{
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
